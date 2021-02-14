@@ -1,7 +1,7 @@
 import time
 def printSum():
     s = 0
-    for i in range(0,int(1e6)+ 1):
+    for i in range(0,1000000):
         s += i
     print(s)
 
