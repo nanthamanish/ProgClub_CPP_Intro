@@ -6,7 +6,7 @@ using namespace std::chrono;
 void printSum()
 {
     long long s = 0;
-    for (int i = 0; i <= 1e6; i++)
+    for (int i = 0; i < 1000000; i++)
         s += i;
     cout << s << '\n';
 }
