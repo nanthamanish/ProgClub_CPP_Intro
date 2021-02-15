@@ -1,0 +1,10 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+    int a[5] = {1, 2, 3, 4, 5};
+    cout << a[0] << '\n';
+    a[2] = 90;
+    cout << a[2] << '\n';
+    return 0;
+}
